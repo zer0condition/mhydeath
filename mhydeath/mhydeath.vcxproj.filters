@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="driver_utils\file_utils.cpp">
+      <Filter>driver_utils</Filter>
+    </ClCompile>
+    <ClCompile Include="mhyprotect\mhyprotect.cpp">
+      <Filter>mhyprotect</Filter>
+    </ClCompile>
+    <ClCompile Include="win_utils\win_utils.cpp">
+      <Filter>win_utils</Filter>
+    </ClCompile>
+    <ClCompile Include="service_utils\service_utils.cpp">
+      <Filter>service_utils</Filter>
+    </ClCompile>
+    <ClCompile Include="mhydeath\process_killer.cpp">
+      <Filter>mhydeath</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="driver_utils\file_utils.h">
+      <Filter>driver_utils</Filter>
+    </ClInclude>
+    <ClInclude Include="driver_utils\raw_driver.h">
+      <Filter>driver_utils</Filter>
+    </ClInclude>
+    <ClInclude Include="mhyprotect\mhyprotect.h">
+      <Filter>mhyprotect</Filter>
+    </ClInclude>
+    <ClInclude Include="win_utils\win_utils.h">
+      <Filter>win_utils</Filter>
+    </ClInclude>
+    <ClInclude Include="win_utils\nt.h">
+      <Filter>win_utils</Filter>
+    </ClInclude>
+    <ClInclude Include="service_utils\service_utils.h">
+      <Filter>service_utils</Filter>
+    </ClInclude>
+    <ClInclude Include="mhydeath\process_killer.h">
+      <Filter>mhydeath</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="driver_utils">
+      <UniqueIdentifier>{9d335a62-86ee-45d5-913a-2555ee6a7d0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mhyprotect">
+      <UniqueIdentifier>{9fb3042c-aa4d-40f0-a84e-dc788f2e659f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="service_utils">
+      <UniqueIdentifier>{e9533c65-fd79-4f8d-ba04-d05b55af3c10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="win_utils">
+      <UniqueIdentifier>{6f02f3b9-0ae5-4320-bfdd-53bf1dc9e983}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mhydeath">
+      <UniqueIdentifier>{d516efcd-0802-4863-adfe-de1e200bcb73}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
