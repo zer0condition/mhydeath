@@ -1,6 +1,6 @@
 # mhydeath
 
-Abusing mhyprotect (not mhyprot2) to kill protected processes / AVs / EDRs / XDRs
+Abusing mhyprotect (not mhyprot2) to kill protected processes / AVs / EDRs / XDRs.
 
 # Resources
 https://github.com/ZeroMemoryEx/Terminator<br>
