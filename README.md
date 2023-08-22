@@ -7,7 +7,7 @@ https://github.com/ZeroMemoryEx/Terminator
 
 https://github.com/kkent030315/evil-mhyprot-cli
 
-# Crowdstrike Falcon and MsDefender
+# Demo Crowdstrike Falcon and MsDefender
 
 ![Demo](demo.gif)
 
